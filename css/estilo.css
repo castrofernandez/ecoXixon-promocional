@@ -15,7 +15,6 @@ body
 {
 	z-index: 1000;
 	font-family: 'Josefin Sans', sans-serif;
-	width: 1000px;
 	margin: 0 auto 100px auto;
 }
 
@@ -64,7 +63,8 @@ h4
 
 header
 {
-	margin-bottom: 30px;
+	margin: 0 auto 30px auto;
+	width: 1000px;
 }
 
 #principal
@@ -120,6 +120,8 @@ header
 
 footer
 {
+	width: 1000px;
+	margin: 0 auto;
 	padding-top: 50px;
 	color: #fff;
 	visibility: hidden;

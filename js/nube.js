@@ -1,4 +1,12 @@
-window.onload = function () { mostrar_nube(); }
+if (window.attachEvent)
+	window.attachEvent('load', mostrar_nube);
+else
+	window.addEventListener('load', mostrar_nube, false);
+	
+if (window.attachEvent)
+	window.attachEvent('resize', mostrar_nube);
+else
+	window.addEventListener('resize', mostrar_nube, false);
 
 var canvas_nube = null;
 var contexto_nube = null;
@@ -12,7 +20,6 @@ function mostrar_nube()
 	var contenido = document.getElementById('contenido');
 	
 	canvas_nube.width = dimensiones_fondo.ancho;
-	canvas_nube.style.marginLeft = -1 * contenido.offsetLeft + 'px';
 	
 	posicionar_nube();
 }
