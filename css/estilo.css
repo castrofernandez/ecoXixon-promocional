@@ -1,0 +1,136 @@
+body
+{
+	background-color: #404343;
+	margin: 0;
+	padding: 0;
+}
+
+#fondo
+{
+	position: fixed;
+	z-index: -1;
+}
+
+#contenido
+{
+	z-index: 1000;
+	font-family: 'Josefin Sans', sans-serif;
+	width: 1000px;
+	margin: 0 auto 100px auto;
+}
+
+h1
+{
+	color: #fff;
+	font-family: 'Finger Paint', cursive;
+	font-size: 4em;
+	letter-spacing: 4px;
+	margin: 10px 0px 0px 0px;
+}
+
+h2
+{
+	color: #aaa;
+	font-family: 'Finger Paint', cursive;
+	font-size: 1.5em;
+	letter-spacing: 8px;
+	margin-top: 0;
+}
+
+.verde
+{
+	color: #04B486;
+}
+
+h3
+{
+	color: #fff;
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+	letter-spacing: 2px;
+	font-size: 2em;
+	text-align: center;
+	visibility: hidden;
+}
+
+h4
+{
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+	letter-spacing: 2px;
+}
+
+header
+{
+	margin-bottom: 30px;
+}
+
+#principal
+{
+	opacity: 0.9;
+	border-radius: 5px;
+}
+
+#sombreado
+{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/sombra.png);
+}
+
+#marco
+{
+	/*margin: 0 auto;*/
+	background-image: url(../img/nube_sesion.png);
+	position: absolute;
+	top: 50%;
+	/* left: 50%; */
+	width: 600px;
+	height: 297px;
+	padding: 135px 0px 0px 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+#idea
+{
+	float: right;
+	text-align: center;
+}
+
+#festival
+{
+	float: left;
+}
+
+#agradecimientos
+{
+	text-align: center;
+}
+
+.institucion
+{
+	margin: 20px 15px 0px 15px;
+}
+
+footer
+{
+	padding-top: 50px;
+	color: #fff;
+	visibility: hidden;
+}
+
+.social
+{
+	float: right;
+	margin-top: 30px;
+	margin-right: 10px;
+	width: 80px;
+	text-align: right;
+	visibility: hidden;
+}
