@@ -89,14 +89,12 @@ function dimensiones_pantalla()
 		 ancho = document.body.offsetWidth;
 		 alto = document.body.offsetHeight;
 	}
-	
-	if (document.compatMode=='CSS1Compat' && document.documentElement && document.documentElement.offsetWidth) 
+	else if (document.compatMode=='CSS1Compat' && document.documentElement && document.documentElement.offsetWidth) 
 	{
 		 ancho = document.documentElement.offsetWidth;
 		 alto = document.documentElement.offsetHeight;
 	}
-	
-	if (window.innerWidth && window.innerHeight) 
+	else if (window.innerWidth && window.innerHeight) 
 	{
 		 ancho = window.innerWidth;
 		 alto = window.innerHeight;
